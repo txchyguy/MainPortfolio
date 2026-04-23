@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abutalha Sayyed | Software Developer</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        header {
+            padding: 50px 20px;
+            text-align: center;
+            background: #1e293b;
+            border-bottom: 3px solid #38bdf8;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+
+        header p {
+            color: #94a3b8;
+            margin-top: 10px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 6px;
+            padding: 8px 16px;
+            border: 1px solid #38bdf8;
+            border-radius: 20px;
+            color: #38bdf8;
+            text-decoration: none;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background: #38bdf822;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid #38bdf8;
+            padding-bottom: 6px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #38bdf8;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+        }
+
+        .tags span {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 12px;
+            background: #0f2a3f;
+            border-radius: 6px;
+            font-size: 0.8rem;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 14px;
+            border: 1px solid #38bdf8;
+            border-radius: 6px;
+            color: #38bdf8;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .project a:hover {
+            background: #38bdf822;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #1e293b;
+            color: #64748b;
+            margin-top: 30px;
+        }
+
+        /* MOBILE RESPONSIVE */
+
+        @media (max-width: 768px) {
+
+            header {
+                padding: 30px 15px;
+            }
+
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 0.9rem;
+            }
+
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            nav a {
+                font-size: 0.85rem;
+                padding: 6px 12px;
+                margin: 4px;
+            }
+
+            section {
+                padding: 30px 15px;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            .card {
+                padding: 15px;
+            }
+
+            .tags span {
+                font-size: 0.7rem;
+                padding: 4px 10px;
+            }
+
+            .project a {
+                font-size: 0.85rem;
+                padding: 5px 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            nav a {
+                font-size: 0.75rem;
+                padding: 5px 10px;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+
+            .card {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+    </script>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Abutalha Shaibaz Sayyed</h1>
+        <p>Aspiring Software Engineer & Developer | Java | Python | Problem Solver</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#results">Results</a>
+            <a href="#internships">Internships</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I am a Computer Science student at Mulund College Of Commerce, passionate about software development,
+                backend systems, and database management. I have hands-on experience working as a freelance backend
+                developer, building real-world websites, developing APIs, and handling databases. I aim to create
+                scalable and efficient applications while continuously improving my technical skills.
+            </p>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>B.Sc. Computer Science</h3>
+            <p>Mulund College Of Commerce, Mumbai</p>
+            <p>1st Year: 52% | 2nd &amp; 3rd Year: Pursuing</p>
+        </div>
+
+        <div class="card">
+            <h3>HSC - Science</h3>
+            <p>Queen Mary College, Mumbai</p>
+            <p>65.83% (2024)</p>
+        </div>
+
+        <div class="card">
+            <h3>SSC</h3>
+            <p>Mumbra English High School</p>
+            <p>73.40% (2022)</p>
+        </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates">
+        <h2>Certificates</h2>
+
+        <div class="card">
+            <h3>CRS (Customer Relationship &amp; Sales)</h3>
+            <a href="certificates/crs.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="card">
+            <h3>Tally Essential</h3>
+            <a href="certificates/tally-essential.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="card">
+            <h3>Tally Advanced GST</h3>
+            <a href="certificates/tally-advanced.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="card">
+            <h3>Communication Skills Level 1</h3>
+            <a href="certificates/iccs1.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="card">
+            <h3>Communication Skills Level 2</h3>
+            <a href="certificates/iccs2.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="card">
+            <h3>Communication Skills Level 3</h3>
+            <a href="certificates/iccs3.pdf" target="_blank">View Certificate</a>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results">
+        <h2>Academic Results</h2>
+
+        <div class="card">
+            <h3>SSC (10th)</h3>
+            <p>73.40%</p>
+            <a href="results/ssc.pdf" target="_blank">View Result</a>
+        </div>
+
+        <div class="card">
+            <h3>HSC (12th)</h3>
+            <p>65.83%</p>
+            <a href="results/hsc.pdf" target="_blank">View Result</a>
+        </div>
+
+        <div class="card">
+            <h3>MHT-CET</h3>
+            <p>51.2783205%</p>
+            <a href="results/mhtcet.pdf" target="_blank">View Result</a>
+        </div>
+    </section>
+
+    <!-- INTERNSHIPS -->
+    <section id="internships">
+        <h2>Internships</h2>
+
+        <div class="card">
+            <h3>Writing &amp; Blogging Intern</h3>
+            <p><strong>Organization:</strong> Marpu Foundation</p>
+            <p><strong>Duration:</strong> 9th March 2026 – 9th April 2026</p>
+            <ul>
+                <li>Created blogs and articles on social awareness topics</li>
+                <li>Contributed to NGO campaigns and digital outreach</li>
+                <li>Enhanced research and content writing skills</li>
+                <li>Collaborated with team members on community initiatives</li>
+            </ul>
+            <a href="internships/marpu_internship.pdf" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="card">
+            <h3>Data Science Intern</h3>
+            <p><strong>Organization:</strong> Imarticus Learning, Thane</p>
+            <p><strong>Duration:</strong> 1 Month</p>
+            <ul>
+                <li>Worked on Machine Learning and predictive modeling projects</li>
+                <li>Gained hands-on experience with Python, SQL, and data tools</li>
+                <li>Performed Data Visualization and Exploratory Data Analysis (EDA)</li>
+                <li>Learned real-world data science workflows and techniques</li>
+            </ul>
+            <a href="internships/datascience_internship.pdf" target="_blank">View Certificate</a>
+        </div>
+
+<!-- SaiKet Systems Internship -->
+<div class="card">
+    <h3>Power BI Intern</h3>
+    <p><strong>Organization:</strong> SaiKet Systems</p>
+    <p><strong>Duration:</strong> Feb 2026 - March 2026</p>
+
+    <ul>
+        <li>Worked on data analysis using Power BI</li>
+        <li>Created dashboards and data visualizations</li>
+        <li>Gained practical experience in business intelligence</li>
+        <li>Improved data interpretation and reporting skills</li>
+    </ul>
+
+    <a href="internships/powerbi_internship.pdf" target="_blank">
+        View Certificate
+    </a>
+</div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="card">
+            <h3>Freelance Backend Developer &amp; Data Entry (2025 – Present)</h3>
+            <ul>
+                <li>Developed and deployed WordPress websites with backend functionality</li>
+                <li>Worked on backend logic, database integration, and APIs</li>
+                <li>Optimized SQL queries and maintained database integrity</li>
+                <li>Handled structured data entry tasks</li>
+                <li>Designed promotional graphics using Canva</li>
+                <li>Collaborated with clients to deliver scalable solutions</li>
+            </ul>
+        </div>
+
+<!-- Navjeevan Lokvikas Sanstha Experience -->
+<div class="card">
+    <h3>Web Developer (WordPress)</h3>
+    <p><strong>Organization:</strong> Navjeevan Lokvikas Sanstha</p>
+    <p><strong>Duration:</strong> 10 Sep 2025 - 31 Mar 2026</p>
+
+    <ul>
+        <li>Developed and maintained websites using WordPress</li>
+        <li>Customized themes and plugins based on requirements</li>
+        <li>Managed website content and updates</li>
+        <li>Improved website performance and responsiveness</li>
+        <li>Enhanced user experience and digital presence</li>
+    </ul>
+
+    <a href="experience/navjeevan_experience.pdf" target="_blank">
+        View Certificate
+    </a>
+</div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="card">
+            <h3>Programming</h3>
+            <div class="tags">
+                <span>Python</span><span>Java</span><span>C++</span><span>SQL</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Backend &amp; Databases</h3>
+            <div class="tags">
+                <span>MySQL</span><span>SQL Server</span><span>SQL*Plus</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Web &amp; Tools</h3>
+            <div class="tags">
+                <span>HTML</span><span>CSS</span><span>WordPress</span><span>MS Office</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Other Skills</h3>
+            <div class="tags">
+                <span>Data Entry</span><span>Canva</span><span>Content Writing</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card project">
+            <h3>Brand House Shoe Store Website</h3>
+            <p>
+                Developed and deployed a real-world e-commerce website using WordPress with backend customization.
+                Implemented product listings, cart functionality, and optimized performance for a smooth user experience.
+            </p>
+            <a href="https://brandhousemumbra.com/" target="_blank">🚀 Visit Live Site</a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <div class="card">
+            <p><strong>Email:</strong> abutalhasayyed82@gmail.com</p>
+            <p><strong>Phone:</strong> 7045771126</p>
+            <p><strong>Location:</strong> Mumbra, Thane</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/talha0135" target="_blank">github.com/talha0135</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Abutalha Sayyed | Software Developer</p>
+    </footer>
+
+</body>
+
+</html>
